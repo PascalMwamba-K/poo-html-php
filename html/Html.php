@@ -94,11 +94,11 @@
 			echo '<br>';
 		}
 
-		public function hr($class = ''){
+		public function souligner($class = ''){
 			echo '<hr class="'.$class.'">';
 		}
 
-		public function h($n = '4', $class = '', $texte){
+		public function titre($n = '4', $class = '', $texte){
 			echo '<h'.$n.' class="'.$class.'">'.$texte.'</h'.$n.'>';
 		}
 
