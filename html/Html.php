@@ -52,7 +52,7 @@
 
 		}
 
-		public function href($url = "#", $title = 'mon lien', $class = '', $texte = 'Aucun texte à afficher pour ce lien'){
+		public function lien($url = "#", $title = 'mon lien', $class = '', $texte = 'Aucun texte à afficher pour ce lien'){
 			echo '<a href="'.$url.'" title = "'.$title.'" class = "'.$class.'">'.$texte.'</a>';
 
 		}
@@ -67,7 +67,7 @@
 		}
 
 		public function input($type = 'text', $name = '', $class = '', $id = '', $placeholder = '', $value = ''){
-			echo '<input text="'.$type.'" name="'.$name.'" class="'.$class.'" id="'.$id.'" value = "'.$value.'" placeholder="'.$placeholder.'">';
+			echo '<input type="'.$type.'" name="'.$name.'" class="'.$class.'" id="'.$id.'" value = "'.$value.'" placeholder="'.$placeholder.'">';
 		}
 
 		public function inputSubmit($name='',$class='',$value = 'valider'){
